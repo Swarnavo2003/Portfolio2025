@@ -5,9 +5,10 @@ const HeroSection = () => {
   return (
     <section
       id="about"
-      className="container mx-auto max-w-6xl h-[500px] flex justify-between mt-10"
+      className="container mx-auto max-w-6xl h-[500px] flex mt-10"
     >
-      <div className="h-full flex flex-col justify-center gap-3">
+      {/* Description */}
+      <div className="h-full flex flex-col justify-center gap-3 w-1/2">
         <p className="text-sm tracking-tighter">Welcome to my portfolio</p>
         <h1 className="text-5xl tracking-tight">
           Hi my name is <br />{" "}
@@ -39,7 +40,8 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div>
+      {/* Image */}
+      <div className="w-1/2 flex justify-center">
         <img
           src={obito}
           alt="obito"
