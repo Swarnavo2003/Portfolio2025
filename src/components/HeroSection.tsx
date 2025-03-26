@@ -36,7 +36,9 @@ const HeroSection = () => {
           <button className="btn btn-active btn-primary">
             Download Resume
           </button>
-          <button className="btn btn-link">Contact Me</button>
+          <button className="btn btn-link">
+            <a href="#contact">Contact Me</a>
+          </button>
         </div>
       </div>
 
